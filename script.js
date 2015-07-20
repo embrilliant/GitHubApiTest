@@ -1,7 +1,7 @@
 
-var username;
-var apiUrl = "https://api.github.com/users/";
-var userApiUrl;
+var username,
+	apiUrl = "https://api.github.com/users/",
+	userApiUrl;
 
 $("#submit").on("click", function(event) {
     username = $("#username").val();
